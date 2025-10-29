@@ -1,51 +1,50 @@
 .email {
-    padding-bottom: 220px;
+    padding-bottom: 13.75rem;
 }
 
-.email h3{
+.email h3 {
     font-weight: 600;
-    font-size: 31px;
+    font-size: 1.9375rem;
 }
 
-.email p{
+.email p {
     font-weight: 200;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
-.email .block{
+.email .block {
     background: rgb(196 196 196);
-    margin-top: 30px;
-    border-radius: 10px;
-    padding: 40px 3%;
+    margin-top: 1.875rem;
+    border-radius: 0.625rem;
+    padding: 2.5rem 3%; 
     width: 94%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.email .block h4{
+.email .block h4 {
     font-weight: 400;
-    font-size: 30px;
+    font-size: 1.875rem;
 }
 
-.email .block input{
+.email .block input {
     background: #fff;
     outline: none;
     border: 0;
-    border-radius: 5px;
-    width: 350px;
-    padding: 20px 30px;
+    border-radius: 0.3125rem;
+    width: 21.875rem; 
+    padding: 1.25rem 1.875rem;
     position: relative;
-    right: -110px;
+    right: -6.875rem; 
     z-index: 1;
-    padding-right: 120px;
-
+    padding-right: 7.5rem;
 }
 
-.email .block button{
+.email .block button {
     cursor: pointer;
     border: 0;
-    padding: 13px 17px;
+    padding: 0.8125rem 1.0625rem;
     position: relative;
     z-index: 2;
 }
