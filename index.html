@@ -20,6 +20,11 @@
 					<li class="btn"><a href="#">Особистий кабінет</a></li>
 				</ul>
 			</nav>
+			<div class="burger-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
 		</div>
 	</header>
 	
@@ -132,5 +137,22 @@
 		<hr>
 		<p>@omek 2025 - всі права захищені</p>
 	</div>
+
+	<script>
+    const burgerIcon = document.querySelector('.burger-icon');
+    const nav = document.querySelector('header nav');
+    const ul = document.querySelector('header nav ul');
+
+    burgerIcon.addEventListener('click', () => {
+        burgerIcon.classList.toggle('active'); 
+        const isNavVisible = nav.style.display === 'flex' || nav.style.display === 'block';
+
+        if (isNavVisible) {
+            nav.style.display = 'none';
+        } else {
+            nav.style.display = 'block'; 
+			}
+		});
+	</script>
 </body>
 </html>
