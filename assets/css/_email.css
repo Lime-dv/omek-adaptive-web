@@ -1,0 +1,51 @@
+.email {
+    padding-bottom: 220px;
+}
+
+.email h3{
+    font-weight: 600;
+    font-size: 31px;
+}
+
+.email p{
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.email .block{
+    background: rgb(196 196 196);
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 40px 3%;
+    width: 94%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.email .block h4{
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.email .block input{
+    background: #fff;
+    outline: none;
+    border: 0;
+    border-radius: 5px;
+    width: 350px;
+    padding: 20px 30px;
+    position: relative;
+    right: -110px;
+    z-index: 1;
+    padding-right: 120px;
+
+}
+
+.email .block button{
+    cursor: pointer;
+    border: 0;
+    padding: 13px 17px;
+    position: relative;
+    z-index: 2;
+}
