@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url("base.css"); /* Імпорт базових стилів та змінних */
+@import url("_hero.css"); /* Стилі для секції Hero та Слайдера */
+@import url("_header.css"); /* Стилі для конкретних компонентів */
+@import url("_layout.css"); /* Стилі для загальної структури та сітки */ 
+@import url("_trending.css");
+
+
+
+
+
+
+
+
+
+
+

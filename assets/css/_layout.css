@@ -1,0 +1,11 @@
+.wrapper{
+    background: #d3f5cb;
+    background: rgba(220, 220, 220, 1);
+    width: 100%;
+    min-height: 100vh;    
+}
+
+.container{
+    width: 1400px;
+    margin: 0 auto;
+}
