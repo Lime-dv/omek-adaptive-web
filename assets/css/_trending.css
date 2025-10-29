@@ -32,4 +32,11 @@
     display: block;
     text-align: center;
     margin-top: 20px;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.trending .books span img{
+    position: relative;
+    top: 5px;
 }
